@@ -49,21 +49,27 @@ header p a:hover{
     text-decoration: underline;
 }
 
-main section.normal{
-    background-color: white;
-    
-    font-variant: small-caps;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw;
-    margin: 0px;
+    font-size: 3.5vw;
 }
 
-main section.image#img01{
-    background-image: url("imagens/background001.jpg");
+select > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
 }
 
 
-#img01{
+
+section#img01{
     background-image: url("imagens/background001.jpg") ;
 }
 
