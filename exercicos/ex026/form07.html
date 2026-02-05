@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="regiao sudeste">
+                    <option value="sp">sao paulo</option>
+                    <option value="rj">rio de janeiro</option>
+                    <option value="MG">Minas gerais</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
