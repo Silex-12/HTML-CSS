@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <i id="menu" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="click">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#"> Opcao 2</a></li>
+                <li><a href="#"> Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>   
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>teste media query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum similique voluptate quisquam, veritatis suscipit recusandae in tempore totam quaerat aperiam facere saepe repudiandae quae rerum expedita, adipisci asperiores qui quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error animi corrupti veniam provident itaque ea a cupiditate accusantium qui, praesentium, modi repellat debitis. Excepturi praesentium, quia illum minima ut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae aliquid doloremque tempora temporibus molestias enim odit perferendis a, illo ipsa eligendi quam modi omnis dicta repellat? Aliquam, fugiat enim.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum similique voluptate quisquam, veritatis suscipit recusandae in tempore totam quaerat aperiam facere saepe repudiandae quae rerum expedita, adipisci asperiores qui quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error animi corrupti veniam provident itaque ea a cupiditate accusantium qui, praesentium, modi repellat debitis. Excepturi praesentium, quia illum minima ut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae aliquid doloremque tempora temporibus molestias enim odit perferendis a, illo ipsa eligendi quam modi omnis dicta repellat? Aliquam, fugiat enim.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum similique voluptate quisquam, veritatis suscipit recusandae in tempore totam quaerat aperiam facere saepe repudiandae quae rerum expedita, adipisci asperiores qui quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error animi corrupti veniam provident itaque ea a cupiditate accusantium qui, praesentium, modi repellat debitis. Excepturi praesentium, quia illum minima ut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae aliquid doloremque tempora temporibus molestias enim odit perferendis a, illo ipsa eligendi quam modi omnis dicta repellat? Aliquam, fugiat enim.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (click.style.display == 'block'){
+                click.style.display = 'none'
+            } else{
+                click.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
