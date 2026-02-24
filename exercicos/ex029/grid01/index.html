@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout 01</title>
+    <style>
+      div.container {
+        display: grid;
+        border: 5px solid black;
+
+        grid-template-rows: 300px 300px 300px;
+        /*é igual: grid-tamplate-rows: repeat(3, 300px);*/
+
+        grid-template-columns: auto auto auto;
+        /*é igual: grid-tamplate-columns: repeat(3, auto);*/
+        
+        
+        /* pode usar as duas o rows e cloumns em uma tag:
+        grid-template: repeat(3, 300px) / repeat(3, auto);
+
+        IMPORTANTE!!!
+        primeiro é o valor do rows e depois columns */
+
+        gap: 20px;
+
+        /* Tambem pode juntar as tags items e  */
+
+        align-items: normal;
+        justify-items: center;
+        /*place-items: normal center ; */
+
+        align-content: start;
+        justify-content: end;
+        /* place-content: start end; */
+
+        /*IMPORTANTE!!!
+        
+        Nestas tags primeiro é o valor do align e depois justify */
+      }
+
+      div.item {
+        border: 3px dashed red;
+        background-color: lightyellow;
+        font-size: 5em;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+      <div class="item">G</div>
+      <div class="item">H</div>
+      <div class="item">I</div>
+    </div>
+  </body>
+</html>
